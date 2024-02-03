@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(DO\ clark-tibbs-oqStl2L5oxI-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.WEBS {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 550px;
+    list-style: none;
+}
+
+.WEBS a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.WEBS :hover{
+    color: #448efd79;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #463a3ab2;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-links {
+    margin: 6px;
+    padding: 0;home: About: Service:
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: 800;
+}
+
+.nav-links li a:hover {
+    color: #000000; 
+    transition: 1s;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
